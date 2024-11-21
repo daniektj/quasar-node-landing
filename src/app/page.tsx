@@ -1,5 +1,6 @@
 import CardBasic from '@/components/ui/CardBasic'
 import CardDesc from '@/components/ui/CardDesc'
+import { Footer } from '@/components/ui/Footer'
 import { Header } from '@/components/ui/Header'
 import Questions from '@/components/ui/Questions'
 
@@ -44,7 +45,7 @@ function HomePage() {
       <section className='flex flex-col items-center justify-center mt-24'>
         <h2>Get ahead of the future with our exclusive presale</h2>
         <span className='span-body-description'>We are launching our presale to fund the acquisition of next-generation hardware that will allow us to offer you an even faster and more efficient service.</span>
-        <a href="#" className='button-basic mt-8'>Buy now</a>
+        <a href="#" className='button-basic mt-8 hover:outline hover:outline-[#0D97DF] hover:outline-4'>Buy now</a>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-16'>
 
@@ -76,11 +77,11 @@ function HomePage() {
       </section>
 
 
-      <section className='flex flex-col items-center justify-center mt-24 w-full'>
+      <section className='flex flex-col items-center  mt-24 w-full'>
         <h2>FAQ</h2>
         <span className='span-body-description'>Get answers to your questions about our service, pre-sale, and exclusive benefits. We want you to make an informed decision with complete confidence.</span>
 
-        <div className='flex flex-col items-center justify-center mt-8 gap-8'>
+        <div className='w-full flex flex-col mt-16 gap-8'>
           
           <Questions
             question='Why is the pre-sale service exclusive?'
@@ -105,6 +106,8 @@ function HomePage() {
 
         </div>
       </section>
+
+      <Footer />
 
     </div>
   )
