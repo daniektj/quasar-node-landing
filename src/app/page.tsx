@@ -1,6 +1,5 @@
 import CardBasic from '@/components/ui/CardBasic'
 import { Header } from '@/components/ui/Header'
-import React from 'react'
 
 function HomePage() {
   return (
@@ -8,7 +7,7 @@ function HomePage() {
       <Header />
       <div className='w-full mt-16 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center'>
         <div className='col-span-2'>
-          <h1 className='text-6xl font-bold'>Unleash the power of Solana with Quasar Node</h1>
+          <h1 className='text-6xl font-bold mb-4'>Unleash the power of Solana with Quasar Node</h1>
           <span className='text-xl text-[#0D97DF]'>Connect to our blazing-fast Solana RPC nodes and experience instant transactions across multiple locations.</span>
         </div>
         <img src="/images/hero-image.svg" alt="solana blocks" className='col-span-1 w-full' />
