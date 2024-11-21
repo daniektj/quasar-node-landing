@@ -10,10 +10,10 @@ function HomePage() {
       <Header />
       <div className='w-full mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center'>
         <div className='col-span-2'>
-          <h1 className='text-6xl font-bold mb-4'>Unleash the power of Solana with Quasar Node</h1>
+          <h1 className='text-[32px] md:text-6xl font-bold mb-4'>Unleash the power of Solana with Quasar Node</h1>
           <span className='text-xl text-[#0D97DF]'>Connect to our blazing-fast Solana RPC nodes and experience instant transactions across multiple locations.</span>
         </div>
-        <img src="/images/hero-image.svg" alt="solana blocks" className='col-span-1 w-full' />
+        <img src="/images/hero-image.svg" alt="solana blocks" className='col-span-1 w-[60%] md:w-full mx-auto' />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-24">
         <CardBasic
