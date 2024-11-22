@@ -1,6 +1,5 @@
 import CardBasic from '@/components/ui/CardBasic'
 import CardDesc from '@/components/ui/CardDesc'
-import { Footer } from '@/components/ui/Footer'
 import { Header } from '@/components/ui/Header'
 import Questions from '@/components/ui/Questions'
 
