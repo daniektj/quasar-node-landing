@@ -45,7 +45,7 @@ function HomePage() {
       <section className='flex flex-col items-center justify-center mt-24'>
         <h2>Get ahead of the future with our exclusive presale</h2>
         <span className='span-body-description'>We are launching our presale to fund the acquisition of next-generation hardware that will allow us to offer you an even faster and more efficient service.</span>
-        <a href="#" className='button-basic mt-8 hover:outline hover:outline-[#0D97DF] hover:outline-4'>Buy now</a>
+        <a href="#" className='outline outline-4 outline-[#ffffff5b] button-basic mt-8 transition-all duration-200 hover:outline hover:outline-[#0D97DF] hover:outline-4'>Buy now</a>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-16'>
 
@@ -82,7 +82,7 @@ function HomePage() {
         <span className='span-body-description'>Get answers to your questions about our service, pre-sale, and exclusive benefits. We want you to make an informed decision with complete confidence.</span>
 
         <div className='w-full flex flex-col mt-16 gap-8'>
-          
+
           <Questions
             question='Why is the pre-sale service exclusive?'
             answer='We limit initial users to ensure optimal performance and prioritize the experience of those who trust us from the beginning.'
@@ -107,7 +107,13 @@ function HomePage() {
         </div>
       </section>
 
-      <Footer />
+      {/* <Footer /> */}
+
+{/*       <section id="botones">
+        <button className=" rounded-lg relative h-12 w-40 overflow-hidden border border-white text-white shadow-2xl transition-all duration-200 hover:border-[#0D97DF] before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-[#0D97DF] before:duration-300 before:ease-out hover:text-white hover:shadow-[#0D97DF] hover:before:h-40 hover:before:w-40 hover:before:opacity-80">
+          <span className="relative z-10 text-xl">Buy Now</span>
+        </button>
+      </section> */}
 
     </div>
   )
