@@ -1,5 +1,6 @@
 import CardBasic from '@/components/ui/CardBasic'
 import CardDesc from '@/components/ui/CardDesc'
+import { Footer } from '@/components/ui/Footer'
 import { Header } from '@/components/ui/Header'
 import Questions from '@/components/ui/Questions'
 
@@ -7,12 +8,12 @@ function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8">
       <Header />
-      <div className='w-full mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center'>
+      <div className='w-full mt-14 md:mt-20 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center'>
         <div className='col-span-2'>
-          <h1 className='text-[32px] md:text-6xl font-bold mb-4'>Unleash the power of Solana with Quasar Node</h1>
-          <span className='text-xl text-[#0D97DF]'>Connect to our blazing-fast Solana RPC nodes and experience instant transactions across multiple locations.</span>
+          <h1 className='text-center md:text-left text-[32px] md:text-6xl font-bold mb-4'>Unleash the power of Solana with Quasar Node</h1>
+          <span className='text-center md:text-left text-xl text-[#0D97DF]'>Connect to our blazing-fast Solana RPC nodes and experience instant transactions across multiple locations.</span>
         </div>
-        <img src="/images/hero-image.svg" alt="solana blocks" className='col-span-1 w-[60%] md:w-full mx-auto' />
+        <img src="/images/hero-image.svg" alt="solana blocks" className='col-span-1 w-[60%] mt-6 md:mt-0 md:w-full mx-auto' />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-24">
         <CardBasic
@@ -105,8 +106,7 @@ function HomePage() {
 
         </div>
       </section>
-
-
+      <Footer />
     </div>
   )
 }
