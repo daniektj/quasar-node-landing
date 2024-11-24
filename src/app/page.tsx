@@ -44,7 +44,7 @@ function HomePage() {
 
       <section className='flex flex-col items-center justify-center mt-24'>
         <h2>Get ahead of the future with our exclusive presale</h2>
-        <span className='span-body-description'>We are launching our presale to fund the acquisition of next-generation hardware that will allow us to offer you an even faster and more efficient service.</span>
+        <span className='span-body-description'>Join our presale to power faster, more efficient service with new hardware.</span>
         <a href="#" className='outline outline-4 outline-[#ffffff5b] button-basic mt-8 transition-all duration-200 hover:outline hover:outline-[#0D97DF] hover:outline-4'>Buy now</a>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-16'>
@@ -100,8 +100,8 @@ function HomePage() {
             answer='We guarantee service delivery within the established timeframe for all participants.'
           />
           <Questions
-            question='What happens if the pre-sale does not reach the expected number of users?'
-            answer='We guarantee service delivery within the established timeframe for all participants.'
+            question='Do you offer technical support during and after the pre-sale?'
+            answer='Yes, our team will be available to resolve any questions or issues related to the service.'
           />
 
         </div>
